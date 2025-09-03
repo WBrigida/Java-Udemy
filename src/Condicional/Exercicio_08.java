@@ -29,7 +29,5 @@ public class Exercicio_08 {
         }
 
         sc.close();
-
-        sc.close();
     }
 }
