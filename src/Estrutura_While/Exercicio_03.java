@@ -2,7 +2,7 @@ package Estrutura_While;
 
 import java.util.Scanner;
 
-public class Exercicios_03 {
+public class Exercicio_03 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
