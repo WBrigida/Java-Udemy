@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class Exercicio_13 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc= new Scanner(System.in);
 
-        int N = scanner.nextInt();
+        int N = sc.nextInt();
         int total = 0;
         int coelhos = 0;
         int ratos = 0;
         int sapos = 0;
 
         for (int i = 0; i < N; i++) {
-            int quantia = scanner.nextInt();
-            char tipo = scanner.next().charAt(0);
+            int quantia = sc.nextInt();
+            char tipo = sc.next().charAt(0);
 
             total += quantia;
 
@@ -39,5 +39,7 @@ public class Exercicio_13 {
         System.out.printf("Percentual de coelhos: %.2f %%\n", (coelhos * 100.0) / total);
         System.out.printf("Percentual de ratos: %.2f %%\n", (ratos * 100.0) / total);
         System.out.printf("Percentual de sapos: %.2f %%\n", (sapos * 100.0) / total);
+
+        sc.close();
     }
 }
